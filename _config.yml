@@ -1,0 +1,36 @@
+title: "Wolujewicz Lab"
+description: "Computational and Functional Genomics at Quinnipiac University"
+baseurl: ""
+url: "https://wolujewiczlab.github.io"
+
+theme: "minimal-mistakes-jekyll"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+author:
+  name: "Paul Wolujewicz, PhD"
+  email: "paul.wolujewicz@qu.edu"
+
+minimal_mistakes_skin: "default"
+locale: "en-US"
+
+markdown: kramdown
+highlighter: rouge
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+header_pages:
+  - _pages/about.md
+  - _pages/research.md
+  - _pages/teaching.md
